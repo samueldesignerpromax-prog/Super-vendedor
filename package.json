@@ -1,0 +1,22 @@
+{
+  "name": "samuel-tech-vendedor",
+  "version": "1.0.0",
+  "description": "Samuel Tech IA - Super Vendedor Inteligente",
+  "main": "api/chat/mensagem.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongodb": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.9.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
